@@ -1,10 +1,7 @@
 # RM Movie-Rentals
-Web programming coursework. Movie rental PHP/MySQL based website.
+Web programming coursework. Movie rental PHP/MySQL based website built on the Ami PHP boilerplate for smaller websites or webbapplications.
 
-Built on the Ami PHP boilerplate for smaller websites or webbapplications.
-
-Built by Joakim Sehlstedt
-Based on the Anax-projekt by Mikael Roos (me@mikaelroos.se)
+Built by Joakim Sehlstedt and based on the Anax-projekt by Mikael Roos (me@mikaelroos.se).
 
 License
 ------------------
