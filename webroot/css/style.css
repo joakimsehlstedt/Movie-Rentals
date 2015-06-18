@@ -1,0 +1,253 @@
+/**
+ * RM_Rental_Movies
+ * FFFFFF, E6E6E6, CCCCCC, B3B3B3, 999999, 808080, 666666, 4D4D4D, 333333, 1A1A1A
+ */
+
+/**
+ * Specific styling for the Ami template.
+ */
+
+h1#logo {
+    line-height: 1em; 
+    margin-bottom: 0.4em;
+    margin-top: 0.7em;
+    font-family: 'Noto Sans', sans-serif;
+}
+.sitetitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: -5px;
+    line-height: 0.2em;
+    color: #333333;
+    text-shadow:-1px -1px 0 #B3B3B3,  
+        1px -1px 0 #B3B3B3,
+        -1px 1px 0 #B3B3B3,
+        1px 1px 0 #B3B3B3;
+}
+
+.siteslogan {
+    font-style: italic;
+    font-size: 0.6em;
+    color: #CCCCCC;
+    letter-spacing: -1px;
+    text-shadow:-1px -1px 0 #333333,  
+        1px -1px 0 #333333,
+        -1px 1px 0 #333333,
+        1px 1px 0 #333333;
+}
+
+footer {
+    color: #AAA;
+    line-height: 2.2em;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+
+/**
+ * The #navmain styling
+ */
+#navmain {
+    margin-left: 0px;
+}
+
+#navmain ul { 
+    list-style:none;
+    margin-bottom: 10px;
+}
+
+#navmain ul li, #navmain ul li form { 
+    display:inline;
+}
+
+/* background color set to RGBA, with opacity on 0.3 and also using text-shadow */
+#navmain ul li a { 
+    padding: 10px;
+    background: rgba(128,128,128,0.3);
+    text-decoration: none; 
+    font-weight: normal; 
+    font-size: 1.2em;
+    color: #CCCCCC;
+    margin-right: 1px;
+    text-shadow:1px 1px 2px #1A1A1A;
+}
+
+#topsearch {
+    padding-top: 44px;
+}
+
+/* :first-child pseudo selector with rounded top left corner */
+#navmain ul li:first-child a { 
+}
+
+/* :last-child pseudo selector with rounded top right corner */
+#navmain ul li:last-child a { 
+}
+
+/* hover state shows a linear gradient and opacity it brought down to 0.9 and also shows a very slight grey shadow on top */
+#navmain ul li a:hover { 
+    background-color:rgba(204,204,204,0.6) !important;
+}
+
+/* another RGBA background, now with an opacity of 0.8 */
+#navmain ul li a.active { 
+    background: rgba(230,230,230,0.9) !important; 
+    text-shadow: none;
+    color: #1A1A1A;
+}
+
+.textright {
+    text-align: right;
+}
+
+
+
+
+/**
+ * navaside styling. Aside menu.
+ */
+#navaside {
+    padding-left: 20px;
+}
+
+#navaside ul {
+    list-style-type: circle;
+    padding-left: 16px;
+}
+
+#navaside ul li a { 
+    text-decoration: none;
+    font: 15px Helvetica, Sans-Serif; 
+    color: #402e16;
+}
+
+
+
+
+/**
+ * Page maincontent box styling.
+ */
+.content { 
+    background: rgba(230,230,230,0.9);
+    padding: 20px 10px;
+}
+
+footer {
+    text-shadow:1px 1px 2px #1A1A1A;
+}
+
+table, th, td {
+    border: dashed 1px #999999;
+    margin: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+table {
+    border-spacing: 2px;
+}
+
+fieldset {
+    border: solid 1px #999999;
+    padding: 20px;
+}
+
+.blogpost {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.main_figcap {
+    color:white;
+    font-size:1.7em;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    margin-top:-34px;
+    margin-left:9px;
+    margin-bottom: 34px;
+    text-shadow:1px 1px 2px #000;
+}
+
+#new_releases a {
+    text-decoration:none;
+}
+
+table.full-width {
+    width: 99%;
+}
+
+/**
+ * CSS code for the Movie genre icons.
+ * Use movie-genres.png sprite.
+ */
+
+ul.genre {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+ul.genre li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 30px 0;
+    width: 40px;
+    height: 60px;
+    background: url(../img/system/movie_genres.png) no-repeat;
+    font-size: 0.8em;
+    text-align: center;
+
+}
+
+ul.genre a {
+    text-decoration: none;
+}
+
+ul.genre a:hover {
+    text-shadow:1px 1px 4px #666666;
+}
+
+ul.genre li.genre-1 { background-position: -104px 0px; }
+ul.genre li.genre-2 { background-position: 6px 0px; }
+ul.genre li.genre-3 { background-position: -1196px 1110px; }
+ul.genre li.genre-4 { background-position: -315px 0px; }
+ul.genre li.genre-5 { background-position: -51px 0px; }
+ul.genre li.genre-6 { background-position: -368px 0px; }
+ul.genre li.genre-7 { background-position: -102px -53px; }
+ul.genre li.genre-8 { background-position: -417px 0px; }
+ul.genre li.genre-9 { background-position: -156px 0px; }
+ul.genre li.genre-10 { background-position:-262px 0px; }
+
+#genremenu {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#genremenutitle {
+    margin-top: 30px;
+    text-align: right;
+}
+
+div#plot {
+    background-color: rgba(255,255,255,0.8);
+}
+
+#price {
+    background-color: rgba(250,25,48,0.5);
+    padding: 0px 5px;
+}
+
+.orderby a {
+    text-decoration: none;
+}

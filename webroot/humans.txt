@@ -1,0 +1,12 @@
+/* TEAM */
+Your title: Joakim Sehlstedt
+Site: email, link to a contact form, etc.
+Twitter: N/A
+Location: Oxford, UK.
+
+/* THANKS */
+Name: Mikael Roos (me@mikaelroos.se)
+
+/* SITE */
+Last update: 2014/02/25
+Standards: HTML5, CSS3,..

@@ -1,0 +1,114 @@
+/**
+ * Big calendar styling
+ */
+.calendardiv {
+    background: #E8EDE0;
+    border: 1px solid #0F0F0F;
+    min-height: 100px;
+    text-align: center;
+    padding: 4px 0 10px 0;
+    overflow: auto;
+}
+
+.calimg {
+    border: 1px solid #0F0F0F;
+    height: 420px;
+    width: 700px;
+}
+
+.monthline {
+    margin: 0 8px 20px 8px;
+    text-align: center;
+    width: 100%;
+    color: #1A1A1A;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    text-transform: lowercase;
+    letter-spacing: -0.1em;
+    font-size: 1.8em; 
+    line-height: 1em;  
+}
+
+.monthline a {
+    margin: 7px;
+    text-decoration: none;
+}
+
+table.calendarbig {
+    margin: 8px 8px 0 6px;
+    width: 99%;
+}
+
+tr.dayrow {
+    height: 40px;
+}
+
+tr.days {
+    height: 89px;
+}
+
+.calendarbig td {
+    border: 1px solid #C0C0C0;
+}
+
+td.week {
+    width: 49px;
+}
+
+td.day {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    width: 89px;
+}
+
+.currentmonth {
+    background: #FFFFFF;
+}
+
+.notcurrentmonth {
+    background: #cccccc;
+    color: #999
+}
+
+.redday {
+    color: #d11;
+}
+
+.today {
+    background: #fcd271;
+}
+
+/**
+ * Small calendar styling
+ */
+
+table.calendarsmall {
+    font-size: 12px;
+    height: 190px;
+    margin: 5px auto 5px auto;
+    width: 190px;
+}
+
+.smallmonthline {
+    text-align: center;
+}
+
+tr.smalldayrow {
+    text-align: center;
+}
+
+tr.smalldays {
+    text-align: center;
+}
+
+.calendarsmall td {
+    border: 1px solid #C0C0C0;
+}
+
+td.smallday {
+    font-weight: bold;
+    text-align: center;
+}
